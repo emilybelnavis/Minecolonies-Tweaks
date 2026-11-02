@@ -1,0 +1,7 @@
+<window size="190 244">
+    <list id="rows" size="160 20" pos="0 0">
+        <view size="160 20">
+            <button id="rowAction" size="160 20" label="Row"/>
+        </view>
+    </list>
+</window>

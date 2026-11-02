@@ -1,0 +1,17 @@
+# Generated build and tool state
+.gradle/
+build/
+.idea/
+.vscode/
+
+# Routine development-run noise. Use a narrow `rg --no-ignore` search when debugging generated
+# run configuration or other artifacts that `.gitignore` excludes at the run-directory level.
+run*/logs/
+run*/crash-reports/
+run*/saves/
+run*/screenshots/
+run*/downloads/
+run*/debug/
+run*/telemetry/
+*.log
+

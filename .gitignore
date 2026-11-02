@@ -1,0 +1,26 @@
+# Build and game state
+.gradle/
+build/
+bin/
+run/
+run-server/
+run-smoke/
+run-server-smoke/
+logs/
+crash-reports/
+libs/
+*.log
+
+# Editors and machine-specific state
+.idea/
+.vscode/
+.eclipse/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+.env
+.env.*
+!.env.example
+.codex/local/

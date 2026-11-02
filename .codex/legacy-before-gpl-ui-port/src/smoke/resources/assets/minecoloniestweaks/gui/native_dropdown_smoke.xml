@@ -1,0 +1,5 @@
+<window size="190 244">
+    <dropdown id="choices" size="160 20" dropDownSize="160 80">
+        <view size="160 20"><button id="button" size="160 20"/></view>
+    </dropdown>
+</window>

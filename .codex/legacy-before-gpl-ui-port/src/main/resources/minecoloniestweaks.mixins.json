@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.minecoloniestweaks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CitizenNameMixin",
+    "CookHungerMixin"
+  ],
+  "client": [
+    "client.WindowThemeMixin",
+    "client.ButtonThemeMixin",
+    "client.ImageThemeMixin",
+    "client.ResourceScrollAccess",
+    "client.CitizenWindowAccess",
+    "client.BuildingWindowAccess",
+    "client.ResearchWindowAccess",
+    "client.CutterPreviewAccess",
+    "client.LayoutSourceMixin",
+    "client.DropDownAccess",
+    "client.TextFieldAccess",
+    "client.ModuleWindowAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
